@@ -16,6 +16,10 @@ npm run lint
 npm run build
 ```
 
+## Publicación en GitHub Pages
+
+La URL del sitio es https://omarsion.github.io/MrRobot/. En Settings → Pages del repositorio, selecciona **GitHub Actions** como origen. El flujo `.github/workflows/pages.yml` compila y publica `dist/` automáticamente después de cada push a `main`.
+
 Las capturas de proyectos aportadas para esta página están en `public/images/`. Los datos y descripciones comerciales de los casos deben ser aprobados por el equipo antes de publicar. La visualización animada del panel es conceptual.
 
 Completar `canonical`, `og:url` y una imagen Open Graph cuando se conozcan el dominio y la identidad visual definitiva.
